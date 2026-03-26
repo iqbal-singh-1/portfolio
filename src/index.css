@@ -168,7 +168,8 @@ button {
   background: #67d8ef;
 }
 
-.contact-btn, .resume-btn {
+.contact-btn,
+.resume-btn {
   font-size: 0.84rem;
 }
 
@@ -316,7 +317,8 @@ button {
     letter-spacing: 1.5px;
   }
 
-  .contact-btn, .resume-btn {
+  .contact-btn,
+  .resume-btn {
     padding: 12px 20px;
     font-size: 0.85rem;
   }
@@ -332,7 +334,7 @@ button {
   }
 
   .hero-png {
-    max-height: 34vh;
+    max-height: 30vh;
   }
 }
 

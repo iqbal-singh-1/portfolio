@@ -23,7 +23,7 @@ const About = () => {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '30px' }}>
               <div style={{ padding: '16px', background: 'rgba(255,255,255,0.03)', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
                 <h3 style={{ margin: 0, fontSize: '2rem', color: 'white', marginBottom: '8px' }}>2+</h3>
-                <span style={{ fontSize: '0.85rem', color: '#5bd5ee', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>Years<br />Experience</span>
+                <span style={{ fontSize: '0.85rem', color: '#5bd5ee', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>Certifications<br />Completed</span>
               </div>
               <div style={{ padding: '16px', background: 'rgba(255,255,255,0.03)', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
                 <h3 style={{ margin: 0, fontSize: '2rem', color: 'white', marginBottom: '8px' }}>15+</h3>
