@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ConstellationBackground from "./ConstellationBackground";
-import heroImage from "./assets/hero-image.png";
-// import resumeImage from "./assets/resume.png"; // <-- Uncomment this after adding resume.png to the assets folder
+import heroImage from "../public/assets/hero-image.png";
+import resume from "../public/assets/cv.pdf"; // <-- Uncomment this after adding resume.png to the assets folder
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import About from "./components/About";
@@ -45,7 +45,7 @@ export default function App() {
                     <button className="contact-btn">CONTACT ME</button>
                   </a>
                   {/* Change href="#" to href={resumeImage} once you've uncommented the import above */}
-                  <a href="src/assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href={resume} target="_blank" rel="noopener noreferrer">
                     <button className="resume-btn">VIEW RESUME</button>
                   </a>
                 </div>
