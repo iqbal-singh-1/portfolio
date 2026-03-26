@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ConstellationBackground from "./ConstellationBackground";
 import heroImage from "./assets/hero-image.png";
 // import resumeImage from "./assets/resume.png"; // <-- Uncomment this after adding resume.png to the assets folder
