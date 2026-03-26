@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGithub, FaFolderOpen } from 'react-icons/fa';
 
 const projectsData = [
