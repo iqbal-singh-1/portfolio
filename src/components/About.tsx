@@ -20,6 +20,17 @@ const About = () => {
               I specialize in creating high-performance, responsive applications using modern tech. Outside of coding, I enjoy exploring new tools or contributing to open-source.
             </p>
 
+            <div style={{ marginTop: '24px' }}>
+              <h4 style={{ fontSize: '1.1rem', color: 'white', marginBottom: '12px' }}>Soft Skills</h4>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                {['Adaptive', 'Soft-Spoken', 'Team Player', 'Problem Solver', 'Effective Communicator'].map((skill, index) => (
+                  <span key={index} style={{ background: 'rgba(91, 213, 238, 0.1)', color: '#5bd5ee', padding: '6px 14px', borderRadius: '20px', fontSize: '0.85rem', border: '1px solid rgba(91, 213, 238, 0.2)' }}>
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '30px' }}>
               <div style={{ padding: '16px', background: 'rgba(255,255,255,0.03)', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
                 <h3 style={{ margin: 0, fontSize: '2rem', color: 'white', marginBottom: '8px' }}>2+</h3>
